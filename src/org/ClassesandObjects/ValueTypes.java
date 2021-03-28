@@ -10,6 +10,7 @@ public class ValueTypes {
     }
 
     static void square(int x) {
+
         x = x*x;
     }
 }
