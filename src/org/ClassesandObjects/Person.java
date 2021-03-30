@@ -1,13 +1,11 @@
 package org.ClassesandObjects;
 
-//Class Attributes
+//Static
 public class Person {
-    public static void main(String[] args) {
-
-        int age;
-        double height;
-        String name;
-
+    public static int pCount;
+    public static void main(String[ ] args) {
+        Person.pCount = 1;
+        Person.pCount++;
+        System.out.println(Person.pCount);
     }
 }
-

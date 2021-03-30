@@ -8,7 +8,6 @@ public class Arrays {
         for (int x = 0; x < 4; x++) {
             sum += myArray[x];
         }
-        System.out.println(
-        );
+        System.out.println(sum);
     }
 }
