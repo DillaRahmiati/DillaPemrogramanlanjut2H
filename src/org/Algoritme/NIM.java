@@ -82,6 +82,6 @@ public class NIM {
         char kd3 = nim.charAt(10);
         char kd4 = nim.charAt(11);
 
-        return "KD1+KD2+KD3+KD4";
+        return "kd1+kd2+kd3+kd4";
     }
 }
