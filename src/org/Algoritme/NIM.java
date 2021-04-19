@@ -79,7 +79,9 @@ public class NIM {
     public String getNoUrutMahasiswa() {
         char kd1 = nim.charAt(8);
         char kd2 = nim.charAt(9);
+        char kd3 = nim.charAt(10);
+        char kd4 = nim.charAt(11);
 
-        return "6068";
+        return "KD1+KD2+KD3+KD4";
     }
 }
