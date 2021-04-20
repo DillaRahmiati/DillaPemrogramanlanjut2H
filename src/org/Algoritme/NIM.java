@@ -77,11 +77,11 @@ public class NIM {
         return "UNKNOWN";
     }
     public String getNoUrutMahasiswa() {
-        char kd1 = nim.charAt(8);
-        char kd2 = nim.charAt(9);
-        char kd3 = nim.charAt(10);
-        char kd4 = nim.charAt(11);
+        char kd1 = nim.charAt(7);
+        char kd2 = nim.charAt(8);
+        char kd3 = nim.charAt(9);
+        char kd4 = nim.charAt(10);
 
-        return "kd1+kd2+kd3+kd4";
+        return "" + kd1+kd2+kd3+kd4;
     }
 }

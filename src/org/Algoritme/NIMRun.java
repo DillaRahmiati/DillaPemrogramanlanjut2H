@@ -1,11 +1,10 @@
 package org.Algoritme;
-
-import org.Algoritmee.NIM;
+import org.Algoritme.NIM;
 
 public class NIMRun {
     public static void main(String[] args) {
         String nim = "12050126068";
-        org.Algoritmee.NIM objNim = new NIM();
+        org.Algoritme.NIM objNim = new NIM();
         objNim.setNim(nim);
         System.out.println("Jenjang Pendidikan= "+objNim.getJenjangPendidikan());
         System.out.println("Tahun Masuk= "+objNim.getTahunMasuk());
