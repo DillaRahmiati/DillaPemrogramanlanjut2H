@@ -33,7 +33,7 @@ public class FormBiodataMahasiswa {
                 hasil1.setText("Nama : "+mhs.getNama());
                 hasil2.setText("NIM : "+mhs.getNIM());
                 hasil3.setText("Jenjang Pendidikan : "+mhs.getJenjangPendidikan());
-                hasil4.setText("Tahun Masuk : 20"+mhs.getTahunMasuk());
+                hasil4.setText("Tahun Masuk : "+mhs.getTahunMasuk());
                 hasil5.setText("Fakultas : "+mhs.getFakultas());
                 hasil6.setText("Jurusan : "+mhs.getJurusan());
                 hasil7.setText("Jenis Kelamin : "+mhs.getJenisKelamin());
