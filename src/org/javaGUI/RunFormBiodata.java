@@ -1,7 +1,5 @@
 package org.javaGUI;
 
-import org.javaGUI.FormBiodataMahasiswa;
-
 import javax.swing.*;
 
 public class RunFormBiodata {
