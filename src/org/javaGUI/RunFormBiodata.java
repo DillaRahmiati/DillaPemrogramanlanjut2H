@@ -9,6 +9,6 @@ public class RunFormBiodata {
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jFrame.setLocationRelativeTo(null);
         jFrame.setSize(500, 400);
-        jFrame.setVisible(false);
+        jFrame.setVisible(true);
     }
 }
