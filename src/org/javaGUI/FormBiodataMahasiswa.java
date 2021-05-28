@@ -17,7 +17,7 @@ public class FormBiodataMahasiswa {
     private JLabel hasil5;
     private JLabel hasil6;
     private JLabel hasil7;
-    private JLabel hasil8;
+    private JLabel hasil9;
 
     public FormBiodataMahasiswa() {
         buttonCek.addActionListener(new ActionListener() {
@@ -37,7 +37,7 @@ public class FormBiodataMahasiswa {
                 hasil5.setText("Fakultas : "+mhs.getFakultas());
                 hasil6.setText("Jurusan : "+mhs.getJurusan());
                 hasil7.setText("Jenis Kelamin : "+mhs.getJenisKelamin());
-                hasil8.setText("Nomor Urut : "+mhs.getNoUrutMahasiswa());
+                hasil9.setText("Nomor Urut : "+mhs.getNoUrutMahasiswa());
             }
         });
         buttonKeluar.addActionListener(new ActionListener() {
