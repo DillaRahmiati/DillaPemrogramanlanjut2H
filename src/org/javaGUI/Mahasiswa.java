@@ -38,7 +38,7 @@ public class Mahasiswa {
         } else if (kodeJP == '3') {
             return "S3 (DOKTOR)";
         }
-        return "UNKNOWN";
+        return "UKNKNOWN";
     }
 
     public String getTahunMasuk() {

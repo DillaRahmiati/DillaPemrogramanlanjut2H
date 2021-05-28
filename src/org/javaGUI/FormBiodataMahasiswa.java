@@ -44,7 +44,7 @@ public class FormBiodataMahasiswa {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 System.exit(0);
-        }
+            }
     });
 }
 
