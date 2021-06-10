@@ -71,7 +71,7 @@ public class FormSorting {
         tableModel = new DefaultTableModel(initData, tableColom);
         tableSorting.setModel(tableModel);
         //menampilkan sorting di setiap kolom
-        tableSorting.setAutoCreateRowSorter(false);
+        tableSorting.setAutoCreateRowSorter(true);
         //enable single selection
         tableSorting.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 
